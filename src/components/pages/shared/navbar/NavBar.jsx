@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // components
 
-export function NavBar(props) {
+export function NavBar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
@@ -14,7 +14,7 @@ export function NavBar(props) {
             to="/"
             className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
           >
-            <img className="w-32 h-24 -mt-6 -mb-8" alt="lOGO"></img>
+            <img alt="lOGO"></img>
           </Link>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
